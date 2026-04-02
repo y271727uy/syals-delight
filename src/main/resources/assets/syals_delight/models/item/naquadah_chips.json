@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "syals_delight:item/naquadah_chips"
+  }
+}
+

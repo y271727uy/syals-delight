@@ -1,0 +1,11 @@
+{
+  "type": "syals_delight:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/pig"
+    }
+  ],
+  "item": "syals_delight:animal_fat"
+}
+

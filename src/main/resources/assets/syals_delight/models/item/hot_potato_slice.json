@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "syals_delight:item/hot_potato_slice"
+  }
+}
+
