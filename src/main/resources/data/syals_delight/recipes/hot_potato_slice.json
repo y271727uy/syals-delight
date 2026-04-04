@@ -1,8 +1,8 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-    { "item": "syals_delight:potato_slice" },
-    { "item": "syals_delight:potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
     { "tag": "syals_delight:food_oil" },
     { "tag": "syals_delight:food_oil" }
   ],

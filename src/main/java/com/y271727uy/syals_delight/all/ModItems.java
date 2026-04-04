@@ -14,7 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 public final class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SYDMod.MODID);
 
-    public static final RegistryObject<Item> SYALS = ITEMS.register("syals", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SYALS = ITEMS.register("syals", () -> new Item(food(6, 9.3F)));;
     public static final RegistryObject<Item> CHIPS_BAG = ITEMS.register("chips_bag", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SYALS_BAG = ITEMS.register("syals_bag", () -> new Item(new Item.Properties()));
 
