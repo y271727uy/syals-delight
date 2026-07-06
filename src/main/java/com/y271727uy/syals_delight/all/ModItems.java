@@ -21,7 +21,7 @@ public final class ModItems {
     public static final RegistryObject<Item> BAG_O_CHIPS = ITEMS.register("bag_o_chips", () -> new Item(food(6, 9.3F)));
     public static final RegistryObject<Item> KETTLE_CHIPS = ITEMS.register("kettle_chips", () -> new Item(food(6, 9.3F)));
     public static final RegistryObject<Item> NAQUADAH_CHIPS = ITEMS.register("naquadah_chips", () -> new Item(food(189, 66.4F)));
-    public static final RegistryObject<Item> REDUCED_FAT_CHIPS = ITEMS.register("reduced_fat_chips", () -> new Item(food(4, 8.6F)));
+    public static final RegistryObject<Item> REDUCED_FAT_CHIPS = ITEMS.register("reduced_fat_chips", () -> new Item(food(4,8.6F)));
     public static final RegistryObject<Item> VINEGAR_CHIPS = ITEMS.register("vinegar_chips", () -> new Item(food(6, 9.9F)));
 
     public static final RegistryObject<Item> BATCH_FRIED_POTATO_SLICE = ITEMS.register("batch_fried_potato_slice", () -> new Item(food(2, 2.0F)));
