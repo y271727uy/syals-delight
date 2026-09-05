@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:chips_bag" },
+    { "item": "farmersdelight:smoked_ham" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" }
+  ],
+  "result": { "item": "syals_delight:smoker_ham_chips" }
+}

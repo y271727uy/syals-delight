@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:chips_bag" },
+    { "item": "smc:broccoli" },
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "syals_delight:low_fat_potato_slice" }
+  ],
+  "result": { "item": "syals_delight:broccoli_flavored_slimming_chips" }
+}
+

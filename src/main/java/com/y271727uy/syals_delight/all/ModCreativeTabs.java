@@ -21,6 +21,15 @@ public final class ModCreativeTabs {
                 output.accept(ModItems.NAQUADAH_CHIPS.get());
                 output.accept(ModItems.REDUCED_FAT_CHIPS.get());
                 output.accept(ModItems.VINEGAR_CHIPS.get());
+                output.accept(ModItems.DONKEY_BURGER_CHIPS.get());
+                output.accept(ModItems.SMOKER_HAM_CHIPS.get());
+                output.accept(ModItems.ONION_CHIPS.get());
+                output.accept(ModItems.SPICY_CHIPS.get());
+                output.accept(ModItems.TOMATO_CHIPS.get());
+                output.accept(ModItems.ASTERA_CHIPS.get());
+                output.accept(ModItems.BROCCOLI_FLAVORED_SLIMMING_CHIPS.get());
+                output.accept(ModItems.PESTO_FLAVORED_CHIPS.get());
+                output.accept(ModItems.STEAK_CHIMICHURRI_CHIPS.get());
                 output.accept(ModItems.BAG_O_CHIPS.get());
                 output.accept(ModItems.BATCH_FRIED_POTATO_SLICE.get());
                 output.accept(ModItems.FRIED_NAQUADAH_POTATO_SLICE.get());

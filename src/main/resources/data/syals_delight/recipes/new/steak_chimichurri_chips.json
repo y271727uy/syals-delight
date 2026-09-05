@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:chips_bag" },
+    { "item": "cosmopolitan:green_sauce" },
+    { "tag": "forge:cooked_beef" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" }
+  ],
+  "result": { "item": "syals_delight:steak_chimichurri_chips" }
+}
+
