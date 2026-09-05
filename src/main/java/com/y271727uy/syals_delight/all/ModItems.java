@@ -23,6 +23,15 @@ public final class ModItems {
     public static final RegistryObject<Item> NAQUADAH_CHIPS = ITEMS.register("naquadah_chips", () -> new Item(food(189, 66.4F)));
     public static final RegistryObject<Item> REDUCED_FAT_CHIPS = ITEMS.register("reduced_fat_chips", () -> new Item(food(4,8.6F)));
     public static final RegistryObject<Item> VINEGAR_CHIPS = ITEMS.register("vinegar_chips", () -> new Item(food(6, 9.9F)));
+    public static final RegistryObject<Item> DONKEY_BURGER_CHIPS = ITEMS.register("donkey_burger_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> SMOKER_HAM_CHIPS = ITEMS.register("smoker_ham_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> ONION_CHIPS = ITEMS.register("onion_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> SPICY_CHIPS = ITEMS.register("spicy_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> TOMATO_CHIPS = ITEMS.register("tomato_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> ASTERA_CHIPS = ITEMS.register("astera_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> BROCCOLI_FLAVORED_SLIMMING_CHIPS = ITEMS.register("broccoli_flavored_slimming_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> PESTO_FLAVORED_CHIPS = ITEMS.register("pesto_flavored_chips", () -> new Item(food(6, 9.3F)));
+    public static final RegistryObject<Item> STEAK_CHIMICHURRI_CHIPS = ITEMS.register("steak_chimichurri_chips", () -> new Item(food(6, 9.3F)));
 
     public static final RegistryObject<Item> BATCH_FRIED_POTATO_SLICE = ITEMS.register("batch_fried_potato_slice", () -> new Item(food(2, 2.0F)));
     public static final RegistryObject<Item> FRIED_NAQUADAH_POTATO_SLICE = ITEMS.register("fried_naquadah_potato_slice", () -> new Item(food(2, 2.0F)));

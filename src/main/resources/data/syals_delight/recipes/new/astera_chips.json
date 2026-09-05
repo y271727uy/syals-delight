@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:chips_bag" },
+    { "item": "smc:star_dust" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" }
+  ],
+  "result": { "item": "syals_delight:astera_chips" }
+}
+

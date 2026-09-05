@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "syals_delight:item/pesto_flavored_chips" }
+}

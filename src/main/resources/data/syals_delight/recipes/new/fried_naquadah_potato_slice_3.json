@@ -1,0 +1,13 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    { "item": "syals_delight:potato_slice" },
+    { "item": "syals_delight:potato_slice" },
+    { "tag": "syals_delight:food_oil" },
+    { "item": "mekanism_extras:dust_naquadah" }
+  ],
+  "result": { "item": "syals_delight:fried_naquadah_potato_slice", "count": 2 },
+  "experience": 0.0,
+  "cookingtime": 200
+}
+
