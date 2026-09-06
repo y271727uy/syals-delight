@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.0,
+  "ingredients": [
+    { "tag": "syals_delight:solid_underground_oil" },
+    { "tag": "syals_delight:solid_underground_oil" }
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "syals_delight:underground_oil_bottle", "count": 1 }
+}

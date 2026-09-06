@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:greasy_potato_slice" },
+    { "item": "syals_delight:greasy_potato_slice" },
+    { "item": "syals_delight:greasy_potato_slice" },
+    { "item": "syals_delight:greasy_potato_slice" },
+    { "item": "syals_delight:chips_bag" }
+  ],
+  "result": { "id": "syals_delight:bag_o_chips", "count": 1 }
+}

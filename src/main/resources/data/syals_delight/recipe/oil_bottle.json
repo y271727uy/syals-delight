@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.0,
+  "ingredients": [
+    { "item": "syals_delight:animal_fat" },
+    { "item": "syals_delight:animal_fat" }
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "syals_delight:oil_bottle", "count": 1 }
+}

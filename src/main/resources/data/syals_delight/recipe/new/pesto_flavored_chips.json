@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:chips_bag" },
+    { "item": "cosmopolitan:green_sauce" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" },
+    { "item": "syals_delight:fried_potato_slice" }
+  ],
+  "result": { "id": "syals_delight:pesto_flavored_chips" }
+}
+

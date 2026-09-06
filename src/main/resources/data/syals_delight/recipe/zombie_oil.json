@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.0,
+  "ingredients": [
+    { "tag": "syals_delight:zombie_oil_block" },
+    { "tag": "syals_delight:zombie_oil_block" }
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "syals_delight:zombie_oil_bottle", "count": 1 }
+}

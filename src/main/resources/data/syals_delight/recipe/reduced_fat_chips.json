@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "syals_delight:low_fat_potato_slice" },
+    { "item": "minecraft:salmon" },
+    { "item": "syals_delight:chips_bag" }
+  ],
+  "result": { "id": "syals_delight:reduced_fat_chips", "count": 1 }
+}

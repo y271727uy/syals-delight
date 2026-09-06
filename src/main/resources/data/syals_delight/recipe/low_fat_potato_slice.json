@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.0,
+  "ingredients": [
+    { "item": "syals_delight:potato_slice" },
+    { "item": "syals_delight:potato_slice" },
+    { "tag": "syals_delight:food_oil" }
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "syals_delight:low_fat_potato_slice", "count": 2 }
+}

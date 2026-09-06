@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:hot_potato_slice" },
+    { "item": "syals_delight:hot_potato_slice" },
+    { "item": "syals_delight:hot_potato_slice" },
+    { "item": "syals_delight:hot_potato_slice" },
+    { "item": "syals_delight:chips_bag" }
+  ],
+  "result": { "id": "syals_delight:kettle_chips", "count": 1 }
+}

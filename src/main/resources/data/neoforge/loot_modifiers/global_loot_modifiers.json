@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    "syals_delight:animal_fat_from_cow",
+    "syals_delight:animal_fat_from_pig",
+    "syals_delight:animal_fat_from_sheep",
+    "syals_delight:animal_fat_from_chicken",
+    "syals_delight:animal_fat_from_rabbit",
+    "syals_delight:animal_fat_from_goat",
+    "syals_delight:animal_fat_from_mooshroom"
+  ]
+}
+
+

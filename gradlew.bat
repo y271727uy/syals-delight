@@ -26,6 +26,9 @@
 @rem Set local scope for the variables with windows NT shell
 if "%OS%"=="Windows_NT" setlocal
 
+@rem Keep Gradle's user home on the configured D: drive when launched by an IDE.
+if not defined GRADLE_USER_HOME set GRADLE_USER_HOME=D:\document\dev\gradle\.gradle
+
 set DIRNAME=%~dp0
 if "%DIRNAME%"=="" set DIRNAME=.
 @rem This is normally unused

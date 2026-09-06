@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:chips_bag" },
+    { "item": "minecraft:yellow_dye" },
+    { "item": "minecraft:red_dye" }
+  ],
+  "result": { "id": "syals_delight:syals_bag", "count": 1 }
+}

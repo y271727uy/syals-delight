@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "syals_delight:batch_fried_potato_slice" },
+    { "item": "syals_delight:batch_fried_potato_slice" },
+    { "item": "syals_delight:batch_fried_potato_slice" },
+    { "item": "syals_delight:batch_fried_potato_slice" },
+    { "item": "syals_delight:syals_bag" }
+  ],
+  "result": { "id": "syals_delight:syals", "count": 1 }
+}
