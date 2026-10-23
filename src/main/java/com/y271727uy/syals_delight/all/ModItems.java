@@ -1,60 +1,67 @@
 package com.y271727uy.syals_delight.all;
 
 import com.y271727uy.syals_delight.SYDMod;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemSword;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+@Mod.EventBusSubscriber(modid = SYDMod.MODID)
 public final class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SYDMod.MODID);
+    public static final ItemFood SYALS = food("syals", 6, 9.3F);
+    public static final Item CHIPS_BAG = item(new Item(), "chips_bag");
+    public static final Item SYALS_BAG = item(new Item(), "syals_bag");
 
-    public static final RegistryObject<Item> SYALS = ITEMS.register("syals", () -> new Item(food(6, 9.3F)));;
-    public static final RegistryObject<Item> CHIPS_BAG = ITEMS.register("chips_bag", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SYALS_BAG = ITEMS.register("syals_bag", () -> new Item(new Item.Properties()));
+    public static final ItemFood BAG_O_CHIPS = food("bag_o_chips", 6, 9.3F);
+    public static final ItemFood KETTLE_CHIPS = food("kettle_chips", 6, 9.3F);
+    public static final ItemFood NAQUADAH_CHIPS = food("naquadah_chips", 189, 66.4F);
+    public static final ItemFood REDUCED_FAT_CHIPS = food("reduced_fat_chips", 4, 8.6F);
+    public static final ItemFood VINEGAR_CHIPS = food("vinegar_chips", 6, 9.9F);
 
-    public static final RegistryObject<Item> BAG_O_CHIPS = ITEMS.register("bag_o_chips", () -> new Item(food(6, 9.3F)));
-    public static final RegistryObject<Item> KETTLE_CHIPS = ITEMS.register("kettle_chips", () -> new Item(food(6, 9.3F)));
-    public static final RegistryObject<Item> NAQUADAH_CHIPS = ITEMS.register("naquadah_chips", () -> new Item(food(189, 66.4F)));
-    public static final RegistryObject<Item> REDUCED_FAT_CHIPS = ITEMS.register("reduced_fat_chips", () -> new Item(food(4,8.6F)));
-    public static final RegistryObject<Item> VINEGAR_CHIPS = ITEMS.register("vinegar_chips", () -> new Item(food(6, 9.9F)));
+    public static final ItemFood BATCH_FRIED_POTATO_SLICE = food("batch_fried_potato_slice", 2, 2.0F);
+    public static final ItemFood FRIED_NAQUADAH_POTATO_SLICE = food("fried_naquadah_potato_slice", 2, 2.0F);
+    public static final ItemFood FRIED_POTATO_SLICE = food("fried_potato_slice", 2, 2.0F);
+    public static final ItemFood GREASY_POTATO_SLICE = food("greasy_potato_slice", 2, 2.0F);
+    public static final ItemFood HOT_POTATO_SLICE = food("hot_potato_slice", 2, 2.0F);
+    public static final ItemFood LOW_FAT_POTATO_SLICE = food("low_fat_potato_slice", 2, 2.0F);
+    public static final ItemFood POTATO_SLICE = food("potato_slice", 2, 2.0F);
 
-    public static final RegistryObject<Item> BATCH_FRIED_POTATO_SLICE = ITEMS.register("batch_fried_potato_slice", () -> new Item(food(2, 2.0F)));
-    public static final RegistryObject<Item> FRIED_NAQUADAH_POTATO_SLICE = ITEMS.register("fried_naquadah_potato_slice", () -> new Item(food(2, 2.0F)));
-    public static final RegistryObject<Item> FRIED_POTATO_SLICE = ITEMS.register("fried_potato_slice", () -> new Item(food(2, 2.0F)));
-    public static final RegistryObject<Item> GREASY_POTATO_SLICE = ITEMS.register("greasy_potato_slice", () -> new Item(food(2, 2.0F)));
-    public static final RegistryObject<Item> HOT_POTATO_SLICE = ITEMS.register("hot_potato_slice", () -> new Item(food(2, 2.0F)));
-    public static final RegistryObject<Item> LOW_FAT_POTATO_SLICE = ITEMS.register("low_fat_potato_slice", () -> new Item(food(2, 2.0F)));
-    public static final RegistryObject<Item> POTATO_SLICE = ITEMS.register("potato_slice", () -> new Item(food(2, 2.0F)));
-
-    public static final RegistryObject<Item> PEELED_POTATO = ITEMS.register("peeled_potato", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PEELER = ITEMS.register("peeler", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties().durability(Tiers.STONE.getUses())));
-    public static final RegistryObject<Item> ANIMAL_FAT = ITEMS.register("animal_fat", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> OIL_BOTTLE = ITEMS.register("oil_bottle", () -> new Item(oilBottle()));
-    public static final RegistryObject<Item> ZOMBIE_OIL_BOTTLE = ITEMS.register("zombie_oil_bottle", () -> new Item(oilBottle()));
-    public static final RegistryObject<Item> UNDERGROUND_OIL_BOTTLE = ITEMS.register("underground_oil_bottle", () -> new Item(oilBottle()));
+    public static final Item PEELED_POTATO = item(new Item(), "peeled_potato");
+    public static final ItemSword PEELER = item(new ItemSword(Item.ToolMaterial.STONE), "peeler");
+    public static final Item ANIMAL_FAT = item(new Item(), "animal_fat");
+    public static final Item OIL_BOTTLE = oilBottle("oil_bottle");
+    public static final Item ZOMBIE_OIL_BOTTLE = oilBottle("zombie_oil_bottle");
+    public static final Item UNDERGROUND_OIL_BOTTLE = oilBottle("underground_oil_bottle");
 
     private ModItems() {
     }
 
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
+    @SubscribeEvent
+    public static void registerItems(RegistryEvent.Register<Item> event) {
+        event.getRegistry().registerAll(
+                SYALS, CHIPS_BAG, SYALS_BAG,
+                BAG_O_CHIPS, KETTLE_CHIPS, NAQUADAH_CHIPS, REDUCED_FAT_CHIPS, VINEGAR_CHIPS,
+                BATCH_FRIED_POTATO_SLICE, FRIED_NAQUADAH_POTATO_SLICE, FRIED_POTATO_SLICE,
+                GREASY_POTATO_SLICE, HOT_POTATO_SLICE, LOW_FAT_POTATO_SLICE, POTATO_SLICE,
+                PEELED_POTATO, PEELER, ANIMAL_FAT, OIL_BOTTLE, ZOMBIE_OIL_BOTTLE, UNDERGROUND_OIL_BOTTLE
+        );
     }
 
-    private static Item.Properties food(int nutrition, float saturation) {
-        return new Item.Properties().food(new FoodProperties.Builder()
-                .nutrition(nutrition)
-                .saturationMod(saturation)
-                .build());
+    private static ItemFood food(String name, int hunger, float saturation) {
+        return item(new ItemFood(hunger, saturation, false), name);
     }
 
-    private static Item.Properties oilBottle() {
-        return new Item.Properties().craftRemainder(Items.GLASS_BOTTLE);
+    private static Item oilBottle(String name) {
+        return item(new Item().setContainerItem(Items.GLASS_BOTTLE), name);
+    }
+
+    private static <T extends Item> T item(T item, String name) {
+        item.setRegistryName(SYDMod.MODID, name);
+        item.setTranslationKey(SYDMod.MODID + "." + name);
+        item.setCreativeTab(ModCreativeTabs.SYALS_DELIGHT_TAB);
+        return item;
     }
 }
-
