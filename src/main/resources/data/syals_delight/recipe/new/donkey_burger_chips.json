@@ -9,5 +9,5 @@
     { "item": "syals_delight:fried_potato_slice" },
     { "item": "syals_delight:fried_potato_slice" }
   ],
-  "result": { "id": "syals_delight:donkey_burger_chips" }
+  "result": { "item": "syals_delight:donkey_burger_chips" }
 }

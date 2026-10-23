@@ -6,5 +6,5 @@
     { "item": "syals_delight:animal_fat" }
   ],
   "recipe_book_tab": "meals",
-  "result": { "id": "syals_delight:oil_bottle", "count": 1 }
+  "result": { "item": "syals_delight:oil_bottle", "count": 1 }
 }

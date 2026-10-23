@@ -7,5 +7,5 @@
     { "tag": "syals_delight:food_oil" }
   ],
   "recipe_book_tab": "meals",
-  "result": { "id": "syals_delight:low_fat_potato_slice", "count": 2 }
+  "result": { "item": "syals_delight:low_fat_potato_slice", "count": 2 }
 }

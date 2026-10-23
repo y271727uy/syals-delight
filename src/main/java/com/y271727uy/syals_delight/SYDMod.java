@@ -10,9 +10,23 @@ import net.neoforged.fml.common.Mod;
 public class SYDMod {
     public static final String MODID = "syals_delight";
 
+<<<<<<< Updated upstream
     public SYDMod(IEventBus eventBus) {
         ModItems.register(eventBus);
         ModCreativeTabs.register(eventBus);
         ModLootModifiers.register(eventBus);
     }
+=======
+	@Override
+	public void onInitialize() {
+		ModItems.register();
+		ModCreativeTabs.register();
+		ModLootModifiers.register();
+		LOGGER.info("Syal's delight initialized");
+	}
+
+	public static ResourceLocation id(String path) {
+		return new ResourceLocation(MODID, path);
+	}
+>>>>>>> Stashed changes
 }

@@ -5,18 +5,13 @@
       "item": "syals_delight:peeled_potato"
     }
   ],
-  "tool": [
-    {
-      "tag": "farmersdelight:tools/knives"
-    }
-  ],
+  "tool": {
+    "tag": "farmersdelight:tools/knives"
+  },
   "result": [
     {
-      "item": {
-        "id": "syals_delight:potato_slice",
-        "count": 3
-      }
+      "item": "syals_delight:potato_slice",
+      "count": 3
     }
   ]
 }
-

@@ -1,22 +1,17 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-	{
-	  "item": "syals_delight:peeled_potato"
-	}
+    {
+      "item": "syals_delight:peeled_potato"
+    }
   ],
-  "tool": [
-	{
-	  "tag": "c:tools/knives"
-	}
-  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  },
   "result": [
-	{
-	  "item": {
-		"id": "syals_delight:potato_slice",
-		"count": 3
-	  }
-	}
+    {
+      "item": "syals_delight:potato_slice",
+      "count": 3
+    }
   ]
 }
-

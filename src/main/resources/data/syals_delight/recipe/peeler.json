@@ -14,5 +14,5 @@
       "item": "minecraft:stick"
     }
   },
-  "result": { "id": "syals_delight:peeler", "count": 1 }
+  "result": { "item": "syals_delight:peeler", "count": 1 }
 }

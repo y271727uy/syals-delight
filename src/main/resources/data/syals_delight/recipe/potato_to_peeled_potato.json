@@ -5,18 +5,13 @@
       "item": "minecraft:potato"
     }
   ],
-  "tool": [
-    {
-      "item": "syals_delight:peeler"
-    }
-  ],
+  "tool": {
+    "item": "syals_delight:peeler"
+  },
   "result": [
     {
-      "item": {
-        "id": "syals_delight:peeled_potato",
-        "count": 1
-      }
+      "item": "syals_delight:peeled_potato",
+      "count": 1
     }
   ]
 }
-

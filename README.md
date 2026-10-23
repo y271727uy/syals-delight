@@ -1,10 +1,20 @@
 
+<<<<<<< Updated upstream
 Installation information
 =======
 
 This template repository can be directly cloned to get you started with a new
 mod. Simply create a new repository cloned from this one, by following the
 instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+=======
+Minecraft 1.20.1 Fabric 移植，内容来自 `1.21.1-fabric`。
+
+- Mod ID：`syals_delight`
+- 包名：`com.y271727uy.syals_delight`
+- Java：17
+- Fabric Loader：0.19.5
+- Fabric API：0.92.12+1.20.1
+>>>>>>> Stashed changes
 
 Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
 

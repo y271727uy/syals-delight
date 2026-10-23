@@ -6,7 +6,7 @@
     { "tag": "syals_delight:food_oil" },
     { "item": "mekanism_extras:dust_naquadah" }
   ],
-  "result": { "id": "syals_delight:fried_naquadah_potato_slice", "count": 2 },
+  "result": { "item": "syals_delight:fried_naquadah_potato_slice", "count": 2 },
   "experience": 0.0,
   "cookingtime": 200
 }

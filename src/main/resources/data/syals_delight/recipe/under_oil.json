@@ -6,5 +6,5 @@
     { "tag": "syals_delight:solid_underground_oil" }
   ],
   "recipe_book_tab": "meals",
-  "result": { "id": "syals_delight:underground_oil_bottle", "count": 1 }
+  "result": { "item": "syals_delight:underground_oil_bottle", "count": 1 }
 }

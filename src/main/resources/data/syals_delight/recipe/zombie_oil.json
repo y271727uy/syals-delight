@@ -6,5 +6,5 @@
     { "tag": "syals_delight:zombie_oil_block" }
   ],
   "recipe_book_tab": "meals",
-  "result": { "id": "syals_delight:zombie_oil_bottle", "count": 1 }
+  "result": { "item": "syals_delight:zombie_oil_bottle", "count": 1 }
 }

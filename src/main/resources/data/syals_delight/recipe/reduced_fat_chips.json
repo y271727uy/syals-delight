@@ -9,5 +9,5 @@
     { "item": "minecraft:salmon" },
     { "item": "syals_delight:chips_bag" }
   ],
-  "result": { "id": "syals_delight:reduced_fat_chips", "count": 1 }
+  "result": { "item": "syals_delight:reduced_fat_chips", "count": 1 }
 }

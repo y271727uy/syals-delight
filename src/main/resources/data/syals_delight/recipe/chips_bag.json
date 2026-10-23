@@ -10,5 +10,5 @@
       "item": "minecraft:paper"
     }
   },
-  "result": { "id": "syals_delight:chips_bag", "count": 1 }
+  "result": { "item": "syals_delight:chips_bag", "count": 1 }
 }

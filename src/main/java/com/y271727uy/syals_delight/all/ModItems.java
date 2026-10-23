@@ -33,6 +33,7 @@ public final class ModItems {
     public static final DeferredHolder<Item, Item> SPICY_CHIPS = ITEMS.register("spicy_chips", () -> new Item(food(6, 9.3F)));
     public static final DeferredHolder<Item, Item> TOMATO_CHIPS = ITEMS.register("tomato_chips", () -> new Item(food(6, 9.3F)));
 
+<<<<<<< Updated upstream
     public static final DeferredHolder<Item, Item> BATCH_FRIED_POTATO_SLICE = ITEMS.register("batch_fried_potato_slice", () -> new Item(food(2, 2.0F)));
     public static final DeferredHolder<Item, Item> FRIED_NAQUADAH_POTATO_SLICE = ITEMS.register("fried_naquadah_potato_slice", () -> new Item(food(2, 2.0F)));
     public static final DeferredHolder<Item, Item> FRIED_POTATO_SLICE = ITEMS.register("fried_potato_slice", () -> new Item(food(2, 2.0F)));
@@ -40,6 +41,14 @@ public final class ModItems {
     public static final DeferredHolder<Item, Item> HOT_POTATO_SLICE = ITEMS.register("hot_potato_slice", () -> new Item(food(2, 2.0F)));
     public static final DeferredHolder<Item, Item> LOW_FAT_POTATO_SLICE = ITEMS.register("low_fat_potato_slice", () -> new Item(food(2, 2.0F)));
     public static final DeferredHolder<Item, Item> POTATO_SLICE = ITEMS.register("potato_slice", () -> new Item(food(2, 2.0F)));
+=======
+	public static final Item PEELED_POTATO = register("peeled_potato", new Item(new Item.Properties()));
+	public static final Item PEELER = register("peeler", new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties().durability(Tiers.STONE.getUses())));
+	public static final Item ANIMAL_FAT = register("animal_fat", new Item(new Item.Properties()));
+	public static final Item OIL_BOTTLE = register("oil_bottle", new Item(oilBottle()));
+	public static final Item ZOMBIE_OIL_BOTTLE = register("zombie_oil_bottle", new Item(oilBottle()));
+	public static final Item UNDERGROUND_OIL_BOTTLE = register("underground_oil_bottle", new Item(oilBottle()));
+>>>>>>> Stashed changes
 
     public static final DeferredHolder<Item, Item> PEELED_POTATO = ITEMS.register("peeled_potato", () -> new Item(new Item.Properties()));
     public static final DeferredHolder<Item, Item> PEELER = ITEMS.register("peeler", () -> new SwordItem(Tiers.STONE, new Item.Properties().durability(Tiers.STONE.getUses())));
@@ -55,12 +64,21 @@ public final class ModItems {
         ITEMS.register(eventBus);
     }
 
+<<<<<<< Updated upstream
     private static Item.Properties food(int nutrition, float saturation) {
         return new Item.Properties().food(new FoodProperties.Builder()
                 .nutrition(nutrition)
                 .saturationModifier(saturation)
                 .build());
     }
+=======
+	private static Item.Properties food(int nutrition, float saturation) {
+		return new Item.Properties().food(new FoodProperties.Builder()
+				.nutrition(nutrition)
+				.saturationMod(saturation)
+				.build());
+	}
+>>>>>>> Stashed changes
 
     private static Item.Properties oilBottle() {
         return new Item.Properties().craftRemainder(Items.GLASS_BOTTLE);

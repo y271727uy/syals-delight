@@ -8,5 +8,5 @@
     { "tag": "syals_delight:food_oil" }
   ],
   "recipe_book_tab": "meals",
-  "result": { "id": "syals_delight:hot_potato_slice", "count": 2 }
+  "result": { "item": "syals_delight:hot_potato_slice", "count": 2 }
 }

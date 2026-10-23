@@ -3,7 +3,7 @@
   "ingredients": [
     { "item": "syals_delight:animal_fat" }
   ],
-  "result": { "id": "kaleidoscope_cookery:oil", "count": 1 },
+  "result": { "item": "kaleidoscope_cookery:oil", "count": 1 },
   "experience": 0.0,
   "cookingtime": 200
 }

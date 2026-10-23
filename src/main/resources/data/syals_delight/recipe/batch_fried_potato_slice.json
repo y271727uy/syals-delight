@@ -10,5 +10,5 @@
     { "tag": "syals_delight:food_oil" }
   ],
   "recipe_book_tab": "meals",
-  "result": { "id": "syals_delight:batch_fried_potato_slice", "count": 4 }
+  "result": { "item": "syals_delight:batch_fried_potato_slice", "count": 4 }
 }

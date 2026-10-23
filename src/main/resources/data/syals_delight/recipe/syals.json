@@ -8,5 +8,5 @@
     { "item": "syals_delight:batch_fried_potato_slice" },
     { "item": "syals_delight:syals_bag" }
   ],
-  "result": { "id": "syals_delight:syals", "count": 1 }
+  "result": { "item": "syals_delight:syals", "count": 1 }
 }

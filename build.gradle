@@ -182,6 +182,7 @@ publishing {
 }
 
 tasks.withType(JavaCompile).configureEach {
+<<<<<<< Updated upstream
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
@@ -191,4 +192,35 @@ idea {
         downloadSources = true
         downloadJavadoc = true
     }
+=======
+	it.options.encoding = 'UTF-8'
+	it.options.release = 17
+}
+
+java {
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+jar {
+	def projectName = project.name
+	inputs.property "projectName", projectName
+
+	from("LICENSE") {
+		rename { "${it}_${projectName}" }
+	}
+}
+
+publishing {
+	publications {
+		create("mavenJava", MavenPublication) {
+			from components.java
+		}
+	}
+
+	repositories {
+	}
+>>>>>>> Stashed changes
 }

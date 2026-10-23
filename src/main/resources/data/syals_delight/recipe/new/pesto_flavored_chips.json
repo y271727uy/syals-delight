@@ -9,6 +9,6 @@
     { "item": "syals_delight:fried_potato_slice" },
     { "item": "syals_delight:fried_potato_slice" }
   ],
-  "result": { "id": "syals_delight:pesto_flavored_chips" }
+  "result": { "item": "syals_delight:pesto_flavored_chips" }
 }
 
