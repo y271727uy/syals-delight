@@ -1,4 +1,5 @@
 package com.y271727uy.syals_delight;
+
 /**
  * Placeholder for future configuration support.
  *
@@ -7,6 +8,6 @@ package com.y271727uy.syals_delight;
  */
 @SuppressWarnings("unused")
 public final class Config {
-    private Config() {
-    }
+	private Config() {
+	}
 }

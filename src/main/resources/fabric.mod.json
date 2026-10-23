@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "syals_delight",
+	"version": "${version}",
+	"name": "Syal's delight",
+	"description": "Syal's delight for Fabric.",
+	"authors": [
+		"y271727uy"
+	],
+	"contact": {
+		"sources": "https://github.com/y271727uy/syals-delight"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/syals_delight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.y271727uy.syals_delight.SYDMod"
+		],
+		"client": [
+			"com.y271727uy.syals_delight.client.SyalsDelightClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
