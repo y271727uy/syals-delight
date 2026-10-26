@@ -243,13 +243,24 @@ jar {
         if (propertyBool('use_access_transformer')) {
             attribute_map['FMLAT'] = propertyString('access_transformer_locations')
         }
-        def mixinConfigs = propertyStringList('mixin_configs')
-        if (!mixinConfigs.isEmpty()) {
-            attribute_map['MixinConfigs'] = mixinConfigs.join(',')
-        }
-        def mixinConnectorClass = propertyString('mixin_connector_class')
-        if (!mixinConnectorClass.isEmpty()) {
-            attribute_map['MixinConnector'] = mixinConnectorClass
+        // MixinBooter loads every MixinConfigs entry during launch. Declaring a
+        // missing config (the template default while use_mixins is false) crashes
+        // before the main menu with MixinInitialisationError.
+        if (propertyBool('use_mixins')) {
+            def mixinConfigs = propertyStringList('mixin_configs').findAll { config ->
+                file("src/main/resources/${config}").isFile()
+            }
+            def missingConfigs = propertyStringList('mixin_configs') - mixinConfigs
+            if (!missingConfigs.isEmpty()) {
+                throw new GradleException("use_mixins is true, but these mixin configs are missing from src/main/resources: ${missingConfigs.join(', ')}")
+            }
+            if (!mixinConfigs.isEmpty()) {
+                attribute_map['MixinConfigs'] = mixinConfigs.join(',')
+            }
+            def mixinConnectorClass = propertyString('mixin_connector_class')
+            if (!mixinConnectorClass.isEmpty()) {
+                attribute_map['MixinConnector'] = mixinConnectorClass
+            }
         }
         attributes(attribute_map)
     }

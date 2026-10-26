@@ -18,6 +18,15 @@ public final class ModCreativeTabs {
             items.add(new ItemStack(ModItems.NAQUADAH_CHIPS));
             items.add(new ItemStack(ModItems.REDUCED_FAT_CHIPS));
             items.add(new ItemStack(ModItems.VINEGAR_CHIPS));
+            items.add(new ItemStack(ModItems.DONKEY_BURGER_CHIPS));
+            items.add(new ItemStack(ModItems.SMOKER_HAM_CHIPS));
+            items.add(new ItemStack(ModItems.ONION_CHIPS));
+            items.add(new ItemStack(ModItems.SPICY_CHIPS));
+            items.add(new ItemStack(ModItems.TOMATO_CHIPS));
+            items.add(new ItemStack(ModItems.ASTERA_CHIPS));
+            items.add(new ItemStack(ModItems.BROCCOLI_FLAVORED_SLIMMING_CHIPS));
+            items.add(new ItemStack(ModItems.PESTO_FLAVORED_CHIPS));
+            items.add(new ItemStack(ModItems.STEAK_CHIMICHURRI_CHIPS));
             items.add(new ItemStack(ModItems.BAG_O_CHIPS));
             items.add(new ItemStack(ModItems.BATCH_FRIED_POTATO_SLICE));
             items.add(new ItemStack(ModItems.FRIED_NAQUADAH_POTATO_SLICE));

@@ -20,6 +20,15 @@ public final class ModItems {
     public static final ItemFood NAQUADAH_CHIPS = food("naquadah_chips", 189, 66.4F);
     public static final ItemFood REDUCED_FAT_CHIPS = food("reduced_fat_chips", 4, 8.6F);
     public static final ItemFood VINEGAR_CHIPS = food("vinegar_chips", 6, 9.9F);
+    public static final ItemFood DONKEY_BURGER_CHIPS = food("donkey_burger_chips", 6, 9.3F);
+    public static final ItemFood SMOKER_HAM_CHIPS = food("smoker_ham_chips", 6, 9.3F);
+    public static final ItemFood ONION_CHIPS = food("onion_chips", 6, 9.3F);
+    public static final ItemFood SPICY_CHIPS = food("spicy_chips", 6, 9.3F);
+    public static final ItemFood TOMATO_CHIPS = food("tomato_chips", 6, 9.3F);
+    public static final ItemFood ASTERA_CHIPS = food("astera_chips", 6, 9.3F);
+    public static final ItemFood BROCCOLI_FLAVORED_SLIMMING_CHIPS = food("broccoli_flavored_slimming_chips", 6, 9.3F);
+    public static final ItemFood PESTO_FLAVORED_CHIPS = food("pesto_flavored_chips", 6, 9.3F);
+    public static final ItemFood STEAK_CHIMICHURRI_CHIPS = food("steak_chimichurri_chips", 6, 9.3F);
 
     public static final ItemFood BATCH_FRIED_POTATO_SLICE = food("batch_fried_potato_slice", 2, 2.0F);
     public static final ItemFood FRIED_NAQUADAH_POTATO_SLICE = food("fried_naquadah_potato_slice", 2, 2.0F);
@@ -44,6 +53,8 @@ public final class ModItems {
         event.getRegistry().registerAll(
                 SYALS, CHIPS_BAG, SYALS_BAG,
                 BAG_O_CHIPS, KETTLE_CHIPS, NAQUADAH_CHIPS, REDUCED_FAT_CHIPS, VINEGAR_CHIPS,
+                DONKEY_BURGER_CHIPS, SMOKER_HAM_CHIPS, ONION_CHIPS, SPICY_CHIPS, TOMATO_CHIPS,
+                ASTERA_CHIPS, BROCCOLI_FLAVORED_SLIMMING_CHIPS, PESTO_FLAVORED_CHIPS, STEAK_CHIMICHURRI_CHIPS,
                 BATCH_FRIED_POTATO_SLICE, FRIED_NAQUADAH_POTATO_SLICE, FRIED_POTATO_SLICE,
                 GREASY_POTATO_SLICE, HOT_POTATO_SLICE, LOW_FAT_POTATO_SLICE, POTATO_SLICE,
                 PEELED_POTATO, PEELER, ANIMAL_FAT, OIL_BOTTLE, ZOMBIE_OIL_BOTTLE, UNDERGROUND_OIL_BOTTLE

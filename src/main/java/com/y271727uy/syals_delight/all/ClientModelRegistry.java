@@ -24,6 +24,15 @@ public final class ClientModelRegistry {
         registerModel(ModItems.NAQUADAH_CHIPS);
         registerModel(ModItems.REDUCED_FAT_CHIPS);
         registerModel(ModItems.VINEGAR_CHIPS);
+        registerModel(ModItems.DONKEY_BURGER_CHIPS);
+        registerModel(ModItems.SMOKER_HAM_CHIPS);
+        registerModel(ModItems.ONION_CHIPS);
+        registerModel(ModItems.SPICY_CHIPS);
+        registerModel(ModItems.TOMATO_CHIPS);
+        registerModel(ModItems.ASTERA_CHIPS);
+        registerModel(ModItems.BROCCOLI_FLAVORED_SLIMMING_CHIPS);
+        registerModel(ModItems.PESTO_FLAVORED_CHIPS);
+        registerModel(ModItems.STEAK_CHIMICHURRI_CHIPS);
         registerModel(ModItems.BATCH_FRIED_POTATO_SLICE);
         registerModel(ModItems.FRIED_NAQUADAH_POTATO_SLICE);
         registerModel(ModItems.FRIED_POTATO_SLICE);
